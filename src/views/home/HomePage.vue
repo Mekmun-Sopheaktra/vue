@@ -7,15 +7,13 @@
                         <div class="col-xl-5 col-lg-12 col-12 order-3 order-xl-1">
                             <div class="item-description">
                                 <p>
-                                    The term fungible means something that can be replaced by something similar. So, by
-                                    the
-                                    name Non Fungible Tokens, we can easily understand.
+                                  Academic Year 2020-2024 <br>Generation 7 Alumni
                                 </p>
                                 <div class="product-share-wrapper">
                                     <div class="profile-share">
-                                        <router-link to="/author/1" class="avatar" data-tooltip="E1"><img :src="require(`@/assets/images/client/client-1.png`)" alt="Nft_Profile"></router-link>
-                                        <router-link to="/author/2" class="avatar" data-tooltip="E2"><img :src="require(`@/assets/images/client/client-3.png`)" alt="Nft_Profile"></router-link>
-                                        <router-link to="/author/3" class="avatar" data-tooltip="E3"><img :src="require(`@/assets/images/client/client-5.png`)" alt="Nft_Profile"></router-link>
+                                        <router-link to="/author/1" class="avatar" data-tooltip="E1"><img src="https://res.cloudinary.com/zerovector/image/upload/v1707731744/wb7zvmzhezxkw3z2rx2t.jpg" alt="Nft_Profile"></router-link>
+                                        <router-link to="/author/2" class="avatar" data-tooltip="E2"><img src="https://res.cloudinary.com/zerovector/image/upload/v1707731610/avzhsqx6u4nykdlovqwo.jpg" alt="Nft_Profile"></router-link>
+                                        <router-link to="/author/3" class="avatar" data-tooltip="E3"><img src="https://res.cloudinary.com/zerovector/image/upload/v1707731744/rinqwxiiabzhwvinrne2.jpg" alt="Nft_Profile"></router-link>
                                         <router-link class="more-author-text" to="#">Class of ITE G7</router-link>
                                     </div>
                                 </div>
@@ -23,12 +21,12 @@
                         </div>
                         <div class="col-xl-4 col-lg-12 col-12 order-2 order-xl-2">
                             <h2 class="title">
-                                Discover <br> Rare Digital art & collect <span>NFT's</span>
+                                Discover <br> ITE G7 @ <span>RUPP</span>
                             </h2>
                         </div>
                         <div class="col-xl-3 col-lg-12 col-12 order-1 order-xl-3">
                             <div class="img-thumb-award">
-                                <img :src="require(`@/assets/images/logo/award-logo.png`)" alt="">
+                                <img src="https://upload.wikimedia.org/wikipedia/en/a/a2/RUPP_logo.PNG" alt="">
                             </div>
                         </div>
                     </div>

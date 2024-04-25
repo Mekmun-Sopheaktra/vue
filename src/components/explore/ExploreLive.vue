@@ -55,7 +55,7 @@
                 liveItems: [
                     {
                         id: 7,
-                        productImage: require(`@/assets/images/portfolio/portfolio-07.jpg`),
+                        productImage: 'https://res.cloudinary.com/zerovector/image/upload/v1707731744/rinqwxiiabzhwvinrne2.jpg',
                         countdown: {
                             date: '2024-11-09'
                         },
@@ -66,7 +66,7 @@
                     },
                     {
                         id: 10,
-                        productImage: require(`@/assets/images/portfolio/portfolio-10.jpg`),
+                        productImage: 'https://res.cloudinary.com/zerovector/image/upload/v1707731704/ondtmtzyasxnsmezqkgc.jpg',
                         countdown: {
                             date: '2023-11-09'
                         },
@@ -77,7 +77,7 @@
                     },
                     {
                         id: 3,
-                        productImage: require(`@/assets/images/portfolio/portfolio-03.jpg`),
+                        productImage: 'https://res.cloudinary.com/zerovector/image/upload/v1707731610/avzhsqx6u4nykdlovqwo.jpg',
                         countdown: {
                             date: '2023-10-09'
                         },
@@ -88,7 +88,7 @@
                     },
                     {
                         id: 4,
-                        productImage: require(`@/assets/images/portfolio/portfolio-04.jpg`),
+                        productImage: 'https://res.cloudinary.com/zerovector/image/upload/v1707731744/wb7zvmzhezxkw3z2rx2t.jpg',
                         countdown: {
                             date: '2023-12-09'
                         },

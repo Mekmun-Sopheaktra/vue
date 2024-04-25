@@ -1,4 +1,4 @@
-# nuron
+# ITE G7
 
 ## Project setup
 ```

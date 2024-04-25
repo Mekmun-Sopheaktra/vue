@@ -42,49 +42,49 @@
                 topCollectionList: [
                     {
                         url: '/collection',
-                        thumbnail: require(`@/assets/images/collection/collection-lg-01.jpg`),
+                        thumbnail: 'https://res.cloudinary.com/zerovector/image/upload/v1707731744/wb7zvmzhezxkw3z2rx2t.jpg',
                         smallThumbnails: [
-                            {image: require(`@/assets/images/collection/collection-sm-01.jpg`)},
-                            {image: require(`@/assets/images/collection/collection-sm-02.jpg`)},
-                            {image: require(`@/assets/images/collection/collection-sm-03.jpg`)}
+                            {image: 'https://res.cloudinary.com/zerovector/image/upload/v1707731610/avzhsqx6u4nykdlovqwo.jpg'},
+                            {image: require(`@/assets/images/collection/collection-sm-04.jpg`)},
+                            {image: 'https://res.cloudinary.com/zerovector/image/upload/v1707731744/rinqwxiiabzhwvinrne2.jpg'}
                         ],
-                        client: require(`@/assets/images/client/client-15.png`),
+                        client: 'https://res.cloudinary.com/zerovector/image/upload/v1707731744/wb7zvmzhezxkw3z2rx2t.jpg',
                         title: 'Developer',
                         items: '27'
                     },
                     {
                         url: '/collection',
-                        thumbnail: require(`@/assets/images/collection/collection-lg-02.jpg`),
+                        thumbnail: 'https://res.cloudinary.com/zerovector/image/upload/v1707731744/wb7zvmzhezxkw3z2rx2t.jpg',
                         smallThumbnails: [
+                            {image: 'https://res.cloudinary.com/zerovector/image/upload/v1707731610/avzhsqx6u4nykdlovqwo.jpg'},
                             {image: require(`@/assets/images/collection/collection-sm-04.jpg`)},
-                            {image: require(`@/assets/images/collection/collection-sm-05.jpg`)},
-                            {image: require(`@/assets/images/collection/collection-sm-06.jpg`)}
+                            {image: 'https://res.cloudinary.com/zerovector/image/upload/v1707731744/rinqwxiiabzhwvinrne2.jpg'}
                         ],
-                        client: require(`@/assets/images/client/client-12.png`),
+                        client: 'https://res.cloudinary.com/zerovector/image/upload/v1707731744/wb7zvmzhezxkw3z2rx2t.jpg',
                         title: 'Researcher',
                         items: '20'
                     },
                     {
                         url: '/collection',
-                        thumbnail: require(`@/assets/images/collection/collection-lg-03.jpg`),
+                        thumbnail: 'https://res.cloudinary.com/zerovector/image/upload/v1707731744/wb7zvmzhezxkw3z2rx2t.jpg',
                         smallThumbnails: [
-                            {image: require(`@/assets/images/collection/collection-sm-07.jpg`)},
-                            {image: require(`@/assets/images/collection/collection-sm-08.jpg`)},
-                            {image: require(`@/assets/images/collection/collection-sm-09.jpg`)}
+                            {image: 'https://res.cloudinary.com/zerovector/image/upload/v1707731610/avzhsqx6u4nykdlovqwo.jpg'},
+                            {image: require(`@/assets/images/collection/collection-sm-04.jpg`)},
+                            {image: 'https://res.cloudinary.com/zerovector/image/upload/v1707731744/rinqwxiiabzhwvinrne2.jpg'}
                         ],
-                        client: require(`@/assets/images/client/client-13.png`),
+                        client: 'https://res.cloudinary.com/zerovector/image/upload/v1707731744/wb7zvmzhezxkw3z2rx2t.jpg',
                         title: 'Research',
                         items: '15'
                     },
                     {
                         url: '/collection',
-                        thumbnail: require(`@/assets/images/collection/collection-lg-05.jpg`),
+                        thumbnail: 'https://res.cloudinary.com/zerovector/image/upload/v1707731744/wb7zvmzhezxkw3z2rx2t.jpg',
                         smallThumbnails: [
-                            {image: require(`@/assets/images/collection/collection-sm-10.jpg`)},
-                            {image: require(`@/assets/images/collection/collection-sm-11.jpg`)},
-                            {image: require(`@/assets/images/collection/collection-sm-12.jpg`)}
+                            {image: 'https://res.cloudinary.com/zerovector/image/upload/v1707731610/avzhsqx6u4nykdlovqwo.jpg'},
+                            {image: require(`@/assets/images/collection/collection-sm-04.jpg`)},
+                            {image: 'https://res.cloudinary.com/zerovector/image/upload/v1707731744/rinqwxiiabzhwvinrne2.jpg'}
                         ],
-                        client: require(`@/assets/images/client/client-14.png`),
+                        client: 'https://res.cloudinary.com/zerovector/image/upload/v1707731744/wb7zvmzhezxkw3z2rx2t.jpg',
                         title: 'Research',
                         items: '10'
                     }
