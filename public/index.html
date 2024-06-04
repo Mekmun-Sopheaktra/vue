@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html lang="">
-  <head>
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.png">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width,initial-scale=1.0" name="viewport">
+    <link href="<%= BASE_URL %>favicon.png" rel="icon">
     <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+
+    <meta content="ITE G7 Alumni" property="og:title">
+    <meta content="RUPP, Information Technology Engineering, Generation 7 Alumni" property="og:description">
+    <meta content="https://alumni.decapsoul.one/" property="og:url">
+    <meta content="https://alumni.decapsoul.one/favicon.png" property="og:image">
+    <meta property="og:image:width" content="345">
+    <meta property="og:image:height" content="345">
+    <meta content="website" property="og:type">
+
+    <meta content="summary_large_image" name="twitter:card">
+    <meta content="ITE G7 Alumni" name="twitter:title">
+    <meta content="RUPP, Information Technology Engineering, Generation 7 Alumni" name="twitter:description">
+    <meta content="https://alumni.decapsoul.one/favicon.png" name="twitter:image">
+
+    <meta content="@mekmun_sopheaktra" property="telegram:site">
+    <meta content="RUPP, Information Technology Engineering, Generation 7 Alumni" property="telegram:description">
+    <meta content="ITE G7 Alumni" property="telegram:title">
+    <meta content="https://alumni.decapsoul.one/favicon.png" property="telegram:image">
+</head>
+<body>
+<noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+</noscript>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+</body>
 </html>

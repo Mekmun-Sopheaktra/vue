@@ -4,7 +4,7 @@
             <div class="row mb--50 align-items-center">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                     <h3 class="title mb--0" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                      Projects
+                      Explore Projects
                     </h3>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-12 mt_mobile--15">
@@ -43,132 +43,47 @@
                 newestItemList: [
                     {
                         id: 1,
-                        productImage: require(`@/assets/images/portfolio/portfolio-01.jpg`),
-                        authors: [
-                            {
-                                id: 1,
-                                name: 'Jone lee',
-                                image: require(`@/assets/images/client/client-1.png`)
-                            },
-                            {
-                                id: 2,
-                                name: 'Jone lee',
-                                image: require(`@/assets/images/client/client-2.png`)
-                            },
-                            {
-                                id: 3,
-                                name: 'Nisat Tara',
-                                image: require(`@/assets/images/client/client-3.png`)
-                            }
-                        ],
+                        productImage: 'https://res.cloudinary.com/zerovector/image/upload/v1707731744/rinqwxiiabzhwvinrne2.jpg',
                         biddingAmount: '20',
-                        productName: 'Preatent',
-                        latestBid: 'Highest bid 1/20',
-                        lastBid: '0.244wETH',
+                        productName: 'Hom Sokhim',
+                        latestBid: 'Quote Here',
+                        lastBid: 'ITE E3',
                         reacted: '322'
                     },
                     {
                         id: 2,
-                        productImage: require(`@/assets/images/portfolio/portfolio-02.jpg`),
-                        authors: [
-                            {
-                                id: 4,
-                                name: 'Jone lee',
-                                image: require(`@/assets/images/client/client-4.png`)
-                            },
-                            {
-                                id: 5,
-                                name: 'Nira Ara',
-                                image: require(`@/assets/images/client/client-5.png`)
-                            },
-                            {
-                                id: 6,
-                                name: 'Fatima Afrafy',
-                                image: require(`@/assets/images/client/client-6.png`)
-                            }
-                        ],
+                        productImage: 'https://res.cloudinary.com/zerovector/image/upload/v1707731744/rinqwxiiabzhwvinrne2.jpg',
                         biddingAmount: '10',
-                        productName: 'Diamond Dog',
-                        latestBid: 'Highest bid 5/11',
-                        lastBid: '0.892wETH',
+                        productName: 'Hom Sokhim',
+                        latestBid: 'Quote Here',
+                        lastBid: 'ITE E3',
                         reacted: '420'
                     },
                     {
                         id: 3,
-                        productImage: require(`@/assets/images/portfolio/portfolio-03.jpg`),
-                        authors: [
-                            {
-                                id: 1,
-                                name: 'Jone lee',
-                                image: require(`@/assets/images/client/client-1.png`)
-                            },
-                            {
-                                id: 8,
-                                name: 'Janin Ara',
-                                image: require(`@/assets/images/client/client-8.png`)
-                            },
-                            {
-                                id: 9,
-                                name: 'Atif Islam',
-                                image: require(`@/assets/images/client/client-9.png`)
-                            }
-                        ],
+                        productImage: 'https://res.cloudinary.com/zerovector/image/upload/v1707731744/rinqwxiiabzhwvinrne2.jpg',
                         biddingAmount: '10',
-                        productName: 'OrBid6',
-                        latestBid: 'Highest bid 2/31',
-                        lastBid: '0.2128wETH',
+                        productName: 'Hom Sokhim',
+                        latestBid: 'Quote Here',
+                        lastBid: 'ITE E3',
                         reacted: '12'
                     },
                     {
                         id: 4,
-                        productImage: require(`@/assets/images/portfolio/portfolio-04.jpg`),
-                        authors: [
-                            {
-                                id: 1,
-                                name: 'Jone lee',
-                                image: require(`@/assets/images/client/client-1.png`)
-                            },
-                            {
-                                id: 3,
-                                name: 'Jone lee',
-                                image: require(`@/assets/images/client/client-3.png`)
-                            },
-                            {
-                                id: 5,
-                                name: 'Jone lee',
-                                image: require(`@/assets/images/client/client-5.png`)
-                            }
-                        ],
+                        productImage: 'https://res.cloudinary.com/zerovector/image/upload/v1707731744/rinqwxiiabzhwvinrne2.jpg',
                         biddingAmount: '8',
-                        productName: 'Morgan11',
-                        latestBid: 'Highest bid 3/16',
-                        lastBid: '0.265wETH',
+                        productName: 'Hom Sokhim',
+                        latestBid: 'Quote Here',
+                        lastBid: 'ITE E3',
                         reacted: '20'
                     },
                     {
                         id: 5,
-                        productImage: require(`@/assets/images/portfolio/portfolio-05.jpg`),
-                        authors: [
-                            {
-                                id: 2,
-                                name: 'Jone lee',
-                                image: require(`@/assets/images/client/client-2.png`)
-                            },
-                            {
-                                id: 7,
-                                name: 'Jone lee',
-                                image: require(`@/assets/images/client/client-7.png`)
-                            },
-                            {
-                                id: 9,
-                                name: 'Jone lee',
-                                image: require(`@/assets/images/client/client-9.png`)
-                            }
-                        ],
+                        productImage: 'https://res.cloudinary.com/zerovector/image/upload/v1707731744/rinqwxiiabzhwvinrne2.jpg',
                         biddingAmount: '15',
-                        productName: 'mAtal8',
-                        latestBid: 'Highest bid 6/50',
-                        lastBid: '0.244wETH',
+                        productName: 'Hom Sokhim',
+                        latestBid: 'Quote Here',
+                        lastBid: 'ITE E3',
                         reacted: '205'
                     }
                 ]

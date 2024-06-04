@@ -18,13 +18,13 @@
                 <a class="nav-link smoth-animation" href="#list-item-1"><i class="feather-home"/>Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link smoth-animation" href="#list-item-2"><i class="feather-heart"/>Live Time</a>
+                <a class="nav-link smoth-animation" href="#list-item-2"><i class="feather-heart"/>Explore Live</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link smoth-animation" href="#list-item-3"><i class="feather-trending-up"/>Explore</a>
+                <a class="nav-link smoth-animation" href="#list-item-3"><i class="feather-trending-up"/>Explore Class</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link smoth-animation" href="#list-item-4"><i class="feather-trending-up"/>Projects</a>
+                <a class="nav-link smoth-animation" href="#list-item-4"><i class="feather-book"/>Explore Projects</a>
               </li>
             </ul>
           </nav>
@@ -42,7 +42,7 @@
         <div class="authore-profile">
           <div class="au-content">
             <p class="name">ITE G7 Graduation</p>
-            <p class="blc">Develop by : <span class="value">ITE Dev</span></p>
+            <p class="blc">Develop by : <span class="value">ITE Student</span></p>
           </div>
         </div>
       </div>
@@ -74,11 +74,9 @@
             <li class="nav-item"><a class="nav-link smoth-animation" href="#list-item-1"
                                     @click="toggleMobileMenu">Home</a></li>
             <li class="nav-item"><a class="nav-link smoth-animation" href="#list-item-2" @click="toggleMobileMenu">Live
-              Auction</a></li>
-            <li class="nav-item"><a class="nav-link smoth-animation" href="#list-item-3" @click="toggleMobileMenu">Newest
-              Item</a></li>
-            <li class="nav-item"><a class="nav-link smoth-animation" href="#list-item-4" @click="toggleMobileMenu">Explore
-              Product</a></li>
+              Time</a></li>
+            <li class="nav-item"><a class="nav-link smoth-animation" href="#list-item-3" @click="toggleMobileMenu">Explore</a></li>
+            <li class="nav-item"><a class="nav-link smoth-animation" href="#list-item-4" @click="toggleMobileMenu">Projects</a></li>
           </ul>
           <!-- End Mainmenu Nav -->
         </nav>
@@ -117,6 +115,37 @@
                 </div>
               </form>
             </div>
+            <ShareNetwork
+                class="me-2"
+                :description="description"
+                :hashtags="hashtags"
+                :quote="quote"
+                :title="title"
+                :url="url"
+                network="facebook"
+            >
+              <div class="setting-option">
+              <div class="icon-box">
+                <router-link title="Share to Facebook" to="/"><i class="feather-facebook"/></router-link>
+              </div>
+            </div>
+            </ShareNetwork>
+
+            <ShareNetwork
+                class="me-2"
+                :description="description"
+                :hashtags="hashtags"
+                :quote="quote"
+                :title="title"
+                :url="url"
+                network="telegram"
+            >
+              <div class="setting-option">
+              <div class="icon-box">
+                <router-link title="Share to Telegram" to="/"><i class="feather-navigation"/></router-link>
+              </div>
+            </div>
+            </ShareNetwork>
             <div class="setting-option">
               <div class="icon-box">
                 <router-link title="Contact With Us" to="/contact"><i class="feather-phone"/></router-link>
@@ -214,7 +243,12 @@ export default {
   data() {
     return {
       AppFunctions,
-      isMobileSearchActive: false
+      isMobileSearchActive: false,
+      url: 'https://alumni.decapsoul.one',
+      title: 'Countdown to Graduation',
+      description: 'ITE G7 Graduation Countdown',
+      quote: 'Countdown to Graduation',
+      hashtags: 'Countdown to Graduation ITE G7',
     }
   },
   methods: {

@@ -2,7 +2,7 @@
     <div class="rn-creators-area right-fix-notice creators mt--30">
         <div class="h--100">
             <div class="notice-heading">
-                <h4>Skills</h4>
+                <h4>Browse Skills</h4>
             </div>
         </div>
         <div class="rn-notification-wrapper creators">
@@ -20,7 +20,7 @@
                             <h6 class="name">{{ creator.name }}</h6>
                         </router-link>
                         <span class="count-number">
-                            {{ creator.sellingAmount }}
+                            {{ creator.sellingAmount }} students
                         </span>
                     </div>
                 </div>
@@ -43,74 +43,10 @@
                 creatorsList: [
                     {
                         id: 1,
-                        isVerified: true,
-                        image: require(`@/assets/images/client/client-12.png`),
+                        isVerified: false,
+                        image: 'https://res.cloudinary.com/zerovector/image/upload/v1707731744/rinqwxiiabzhwvinrne2.jpg',
                         name: 'Web Developer',
-                        sellingAmount: '$2500,000'
-                    },
-                    {
-                        id: 2,
-                        isVerified: false,
-                        image: require(`@/assets/images/client/client-2.png`),
-                        name: 'Ms. Parkline',
-                        sellingAmount: '$2300,000'
-                    },
-                    {
-                        id: 3,
-                        isVerified: false,
-                        image: require(`@/assets/images/client/client-3.png`),
-                        name: 'Methods',
-                        sellingAmount: '$2100,000'
-                    },
-                    {
-                        id: 4,
-                        isVerified: true,
-                        image: require(`@/assets/images/client/client-4.png`),
-                        name: 'Jone sone',
-                        sellingAmount: '$2000,000'
-                    },
-                    {
-                        id: 5,
-                        isVerified: false,
-                        url: '#',
-                        image: require(`@/assets/images/client/client-5.png`),
-                        name: 'Siddhart',
-                        sellingAmount: '$200,000'
-                    },
-                    {
-                        id: 6,
-                        isVerified: true,
-                        image: require(`@/assets/images/client/client-6.png`),
-                        name: 'Sobuj Mk',
-                        sellingAmount: '$2000,000'
-                    },
-                    {
-                        id: 7,
-                        isVerified: true,
-                        image: require(`@/assets/images/client/client-7.png`),
-                        name: 'Trodband',
-                        sellingAmount: '$2500,000'
-                    },
-                    {
-                        id: 8,
-                        isVerified: true,
-                        image: require(`@/assets/images/client/client-8.png`),
-                        name: 'Yash',
-                        sellingAmount: '$2500,000'
-                    },
-                    {
-                        id: 9,
-                        isVerified: false,
-                        image: require(`@/assets/images/client/client-9.png`),
-                        name: 'YASHKIB',
-                        sellingAmount: '$2500,000'
-                    },
-                    {
-                        id: 10,
-                        isVerified: true,
-                        image: require(`@/assets/images/client/client-10.png`),
-                        name: 'Brodband',
-                        sellingAmount: '$2500,000'
+                        sellingAmount: '10'
                     }
                 ],
             }

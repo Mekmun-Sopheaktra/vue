@@ -1,25 +1,28 @@
 <template>
-    <div :class="`product-style-one ${productStyleClass}`">
+    <div class="d-flex flex-column justify-content-between" :class="`product-style-one ${productStyleClass}`">
+      <div class="d-flex flex-column">
         <div class="card-thumbnail mb-4">
-            <router-link :to="`/product/${productDate.id}`">
-                <img :src="productDate.productImage" :alt="productDate.productName" @load="$emit('handleImageLoad')">
-            </router-link>
-            <countdown v-if="productDate.countdown" :date="productDate.countdown.date"/>
-            <router-link v-if="showPlaceBid" :to="`/product/${productDate.id}`" class="btn btn-primary">
-                Place Bid
-            </router-link>
+          <router-link :to="`/product/${productDate.id}`">
+            <img :alt="productDate.productName" :src="productDate.productImage" @load="$emit('handleImageLoad')">
+          </router-link>
+          <countdown v-if="productDate.countdown" :date="productDate.countdown.date"/>
+          <router-link v-if="showPlaceBid" :to="`/product/${productDate.id}`" class="btn btn-primary">
+            Place Bid
+          </router-link>
         </div>
         <router-link :to="`/product/${productDate.id}`">
-            <span class="product-name">{{ productDate.productName }}</span>
+          <span class="product-name">{{ productDate.productName }}</span>
         </router-link>
         <span class="latest-bid">{{ productDate.latestBid }}</span>
-        <div class="bid-react-area">
-            <div class="last-bid">{{ productDate.lastBid }}</div>
-            <div class="react-area">
-                <i class="feather-heart"/>
-                <span class="number">{{ productDate.reacted }}</span>
-            </div>
+      </div>
+
+      <div class="bid-react-area">
+        <div class="last-bid">{{ productDate.lastBid }}</div>
+        <div class="react-area">
+          <i class="feather-heart"/>
+          <span class="number">{{ productDate.reacted }}</span>
         </div>
+      </div>
     </div>
 </template>
 

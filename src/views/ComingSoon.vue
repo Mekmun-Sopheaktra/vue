@@ -18,22 +18,19 @@
                                 <span>Coming Soon</span>
                             </h3>
                             <p>
-                                We are available please connect with us via
+                                We are available Soon
                                 <br>
-                                Phone: <a href="tel:+880191122334">+880123456789</a> or
-                                <br> Email: <a href="mailto:admin@example.com"> admin@example.com</a>
+                                Develop By : <a>ITE Dev Team</a>
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-8 col-md-8">
-                    <carousel class="banner-one-slick comeing-soon-slick slider-style-4 slick-activation-09 slick-arrow-style-one rn-slick-dot-style"
-                              :items-to-show="1"
-                              :wrap-around="true">
-                        <slide v-for="(carouselItem, index) in carouselItems" :key="index">
-                            <div :class="`w-100 single-rn-slider ${carouselItem.image} bg_image`"/>
-                        </slide>
-                    </carousel>
+                <div class="col-lg-8 col-md-8 p-4">
+                  <iframe src="https://www.facebook.com/plugins/video.php?height=400&href=https%3A%2F%2Fwww.facebook.com%2Frupp.fe%2Fvideos%2F6912873248788508%2F&show_text=false&width=560&t=0"
+                          width="560" height="850"
+                          style="border:none;overflow:hidden"
+                          allowfullscreen="allowfullscreen"
+                          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                 </div>
             </div>
         </div>
@@ -46,15 +43,5 @@
     export default {
         name: 'ComingSoon',
         components: {Carousel, Slide},
-        data() {
-            return {
-                carouselItems: [
-                    {image: 'bg_image--14'},
-                    {image: 'bg_image--15'},
-                    {image: 'bg_image--16'},
-                    {image: 'bg_image--15'}
-                ]
-            }
-        }
     }
 </script>
