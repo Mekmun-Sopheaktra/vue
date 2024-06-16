@@ -1,5 +1,8 @@
 <template>
+  <Watermark :height="300" :width="300" content="Development Server Only">
     <router-view/>
+  </Watermark>
+
 </template>
 
 <script>

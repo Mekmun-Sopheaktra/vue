@@ -34,7 +34,7 @@
               </h2>
             </div>
             <div class="col-xl-2 col-lg-12 col-12 order-1 order-xl-3">
-              <div class="d-flex flex-column img-thumb-award gap-3 align-items-center">
+              <div class="d-flex flex-column img-thumb-award gap-3 md:align-items-center">
                 <img alt="rupp-logo" src="https://upload.wikimedia.org/wikipedia/en/a/a2/RUPP_logo.PNG"
                      width="100">
                 <div class="divider" />
@@ -42,7 +42,7 @@
                   <img alt="fe-logo" src="https://www.fe.rupp.edu.kh/assets/logo-fe.c04ca1d6-4b48efc6.svg"
                        width="50">
                   <img
-                      src="https://scontent.fpnh10-1.fna.fbcdn.net/v/t39.30808-6/396717787_804857584773344_3543346762002089097_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=c8bO24TRMk8Q7kNvgG8MXhT&_nc_ht=scontent.fpnh10-1.fna&oh=00_AYCgWr78OjAsB3kCTLxolvEEpFx0OOTxHiuREMN40GQlkQ&oe=6664440D"
+                      src="https://scontent.fpnh10-1.fna.fbcdn.net/v/t39.30808-6/396717787_804857584773344_3543346762002089097_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=tJ0go_UI2uAQ7kNvgEzBHo_&_nc_ht=scontent.fpnh10-1.fna&oh=00_AYCulIAaMZZrqZR2eXe8JlhtFdYuA9yhqEMdqJ2fGho8Aw&oe=666ED00D"
                       width="50">
                 </div>
               </div>
